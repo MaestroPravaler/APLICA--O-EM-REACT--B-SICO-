@@ -6,10 +6,19 @@ import reportWebVitals from './reportWebVitals';
 
 import Hello from './Hello';
 import Clock from './Clock';
+import Props from './Props';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Clock />
+    <p>=============================================================</p>
+    < Hello / >
+     <p>=============================================================</p>
+    <Clock  />
+    <p>=============================================================</p>
+    < Props attr = "span"
+    attr2 = "Atributo 02"
+    attr3 = "Atributo 03" / >
+    <p>=============================================================</p>
   </React.StrictMode>,
   document.getElementById('root')
 );
