@@ -9,6 +9,7 @@ import Clock from './Clock';
 import Props from './Props';
 import State from './State';
 import Clock2 from './Clock2';
+import Events from './Events';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +25,8 @@ ReactDOM.render(
     <State />
     <p>=============================================================</p>
     <Clock2 />
+    <p>=============================================================</p>
+    <Events />
     <p>=============================================================</p>
   </React.StrictMode>,
   document.getElementById('root')
