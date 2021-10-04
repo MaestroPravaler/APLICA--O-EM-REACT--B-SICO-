@@ -7,17 +7,20 @@ import reportWebVitals from './reportWebVitals';
 import Hello from './Hello';
 import Clock from './Clock';
 import Props from './Props';
+import State from './State';
 
 ReactDOM.render(
   <React.StrictMode>
     <p>=============================================================</p>
     < Hello / >
      <p>=============================================================</p>
-    <Clock  />
+    <Clock />
     <p>=============================================================</p>
     < Props attr = "span"
     attr2 = "Atributo 02"
     attr3 = "Atributo 03" / >
+    <p>=============================================================</p>
+    <State />
     <p>=============================================================</p>
   </React.StrictMode>,
   document.getElementById('root')
