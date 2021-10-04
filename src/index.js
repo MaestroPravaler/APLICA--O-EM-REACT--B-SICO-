@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Hello from './Hello';
+import Clock from './Clock';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello />
+    <Clock />
   </React.StrictMode>,
   document.getElementById('root')
 );

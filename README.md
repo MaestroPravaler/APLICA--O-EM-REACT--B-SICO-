@@ -3,7 +3,7 @@
 Conceitos a serem desenvolvidos neste trabalho
 
 1. Primeiro Componente
-2. JSX e sua Utilização
+2. JSX e sua Utilização (Fazendo um Relógio)
 3. Props
 4. State
 5. Ciclo de Vida dos Componentes
