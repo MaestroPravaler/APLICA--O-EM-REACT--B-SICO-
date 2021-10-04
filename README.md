@@ -10,4 +10,6 @@ Conceitos a serem desenvolvidos neste trabalho
 6. Trabalhando com Eventos
 7. Oneway Bind e Listas
 
+![](src/assets/images/react_01.png)
+
 ### Os commits seguem a ordem do menu acima.
