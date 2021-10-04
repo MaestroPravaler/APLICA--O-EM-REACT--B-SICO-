@@ -8,12 +8,13 @@ import Hello from './Hello';
 import Clock from './Clock';
 import Props from './Props';
 import State from './State';
+import Clock2 from './Clock2';
 
 ReactDOM.render(
   <React.StrictMode>
     <p>=============================================================</p>
     < Hello / >
-     <p>=============================================================</p>
+    <p>=============================================================</p>
     <Clock />
     <p>=============================================================</p>
     < Props attr = "span"
@@ -21,6 +22,8 @@ ReactDOM.render(
     attr3 = "Atributo 03" / >
     <p>=============================================================</p>
     <State />
+    <p>=============================================================</p>
+    <Clock2 />
     <p>=============================================================</p>
   </React.StrictMode>,
   document.getElementById('root')
